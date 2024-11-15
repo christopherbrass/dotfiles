@@ -7,9 +7,9 @@ cd $SCRIPT_DIR
 cat .bashrc >> ~/.bashrc
 
 ### Overwrite ##################################################################
-cp -R .config ~/.config    # fish
+cp -RT .config ~/.config    # fish
 cp .tmux.conf ~/.tmux.conf # tmux
-cp -R .vim ~/.vim          # vim colors & plugins
+cp -RT .vim ~/.vim          # vim colors & plugins
 cp .vimrc ~/.vimrc         # vim
 
 
