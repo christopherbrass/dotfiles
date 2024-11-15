@@ -10,7 +10,7 @@ cat .bashrc >> ~/.bashrc
 cp -RT .config ~/.config   # fish
 cp .tmux.conf ~/.tmux.conf # tmux
 cp -RT .vim ~/.vim         # vim colors & plugins
-cp .vimrc /etc/vim/vimrc   # vim
+cp .vimrc /usr/share/vim/vimrc # vim
 
 
 # bash
