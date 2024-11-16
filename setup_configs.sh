@@ -7,10 +7,11 @@ cd $SCRIPT_DIR
 cat .bashrc >> ~/.bashrc
 
 ### Overwrite ##################################################################
-cp -RT .config ~/.config   # fish
-cp .tmux.conf ~/.tmux.conf # tmux
-cp -RT .vim ~/.vim         # vim colors & plugins
 cp .vimrc ~/.vimrc         # vim
+cp .tmux.conf ~/.tmux.conf # tmux
+cp -RT .config ~/.config   # fish
+
+### Install vim-plug ###########################################################
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # bash
@@ -19,4 +20,4 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 # git?
 
 
-rm -rfv $SCRIPT_DIR
+rm -rf $SCRIPT_DIR
