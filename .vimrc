@@ -16,7 +16,6 @@ set softtabstop=4
 set incsearch
 set hlsearch
 
-source ~/.vim/colors/gruvbox.vim
 set background=dark
 
 
@@ -29,4 +28,4 @@ call plug#begin()
 Plug 'morhetz/gruvbox'
 
 call plug#end()
-PlugUpdate
+" PlugUpdate
