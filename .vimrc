@@ -16,5 +16,5 @@ set softtabstop=4
 set incsearch
 set hlsearch
 
-source .vim/colors/gruvbox.vim
+source ~/.vim/colors/gruvbox.vim
 set background=dark
