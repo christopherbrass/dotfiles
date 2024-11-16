@@ -19,8 +19,11 @@ set hlsearch
 " Plugins via vim-plug
 call plug#begin()
 
-Plug 'morhetz/gruvbox'
+" https://github.com/junegunn/seoul256.vim"
 Plug 'junegunn/seoul256.vim'
+
+" https://github.com/morhetz/gruvbox
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
