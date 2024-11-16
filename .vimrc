@@ -29,3 +29,4 @@ Plug 'morhetz/gruvbox'
 
 call plug#end()
 " PlugUpdate
+autocmd vimenter * ++nested colorscheme gruvbox
