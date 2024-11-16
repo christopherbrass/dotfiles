@@ -33,5 +33,6 @@ call plug#end()
 
 " PlugUpdate
 " autocmd vimenter * ++nested colorscheme gruvbox
+colorscheme seoul256
 colorscheme gruvbox
 " colorscheme desert
