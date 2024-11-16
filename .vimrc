@@ -15,6 +15,7 @@ set incsearch
 set hlsearch
 " set foldmethod=indent
 " nnoremap <space> za
+set background=dark
 
 " Plugins via vim-plug
 call plug#begin()
