@@ -6,7 +6,6 @@ set mouse=a
 set clipboard^=unnamed,unnamedplus
 
 syntax on
-" colorscheme desert
 
 set tabstop=4
 set expandtab
@@ -27,9 +26,12 @@ set hlsearch
 
 call plug#begin()
 
-" List your plugins here
 Plug 'morhetz/gruvbox'
+Plug 'junegunn/seoul256.vim'
 
 call plug#end()
+
 " PlugUpdate
-autocmd vimenter * ++nested colorscheme gruvbox
+" autocmd vimenter * ++nested colorscheme gruvbox
+colorscheme gruvbox
+" colorscheme desert
