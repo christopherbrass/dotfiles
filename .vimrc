@@ -1,9 +1,12 @@
+set shell=/bin/sh
+
 set number
 set cursorline
 set mouse=a
+set clipboard^=unnamed,unnamedplus
 
 syntax on
-colorscheme desert
+" colorscheme desert
 
 set tabstop=4
 set expandtab
@@ -16,7 +19,7 @@ set softtabstop=4
 set incsearch
 set hlsearch
 
-set background=dark
+" set background=dark
 
 
 
