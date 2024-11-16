@@ -18,3 +18,15 @@ set hlsearch
 
 source ~/.vim/colors/gruvbox.vim
 set background=dark
+
+
+
+
+
+call plug#begin()
+
+" List your plugins here
+Plug 'morhetz/gruvbox'
+
+call plug#end()
+PlugUpdate

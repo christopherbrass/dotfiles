@@ -11,7 +11,7 @@ cp -RT .config ~/.config   # fish
 cp .tmux.conf ~/.tmux.conf # tmux
 cp -RT .vim ~/.vim         # vim colors & plugins
 cp .vimrc ~/.vimrc         # vim
-
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # bash
 
