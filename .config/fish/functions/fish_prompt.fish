@@ -1,7 +1,11 @@
 function fish_prompt
     set -l last_command_status $status
     set -g __fish_git_prompt_describe_style branch
-    set -g __fish_git_prompt_showdirtystate true
+    # set -g __fish_git_prompt_show_informative_status true
+    # set -g __fish_git_prompt_showuntrackedfiles true
+    # set -g __fish_git_prompt_showdirtystate true
+    # set -g __fish_git_prompt_showuntrackedfiles true
+    # set -g __fish_git_prompt_use_informative_chars false
 
     set -l retc red
     test $last_command_status = 0; and set retc green
