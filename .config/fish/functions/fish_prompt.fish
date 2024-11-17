@@ -1,7 +1,7 @@
 function fish_prompt
     set -l last_command_status $status
     set -g __fish_git_prompt_describe_style branch
-    # set -g __fish_git_prompt_showdirtystate true
+    set -g __fish_git_prompt_showdirtystate true
 
     set -l retc red
     test $last_command_status = 0; and set retc green
