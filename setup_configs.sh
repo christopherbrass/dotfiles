@@ -11,7 +11,9 @@ cp .vimrc ~/.vimrc         # vim
 cp .tmux.conf ~/.tmux.conf # tmux
 cp -RT .config ~/.config   # fish
 
-### Install vim-plug ###########################################################
+### Git Bash Prompt
+curl -fLo ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
+### Install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 
