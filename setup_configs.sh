@@ -20,8 +20,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 ### TODO #######################################################################
 
 ### ADD MORE CONFIGS ###
-# make bash pretty like fish
-# ranger? -set default editor
+# TODO: fish git prompt won't show *+%
+# TODO: ranger won't show file previews
+
 # git?
 # i3
 # vi/vim/nvim/vis/helix
