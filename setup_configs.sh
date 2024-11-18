@@ -9,13 +9,15 @@ cat .bashrc >> ~/.bashrc
 ### Overwrite ##################################################################
 cp .vimrc ~/.vimrc         # vim
 cp .tmux.conf ~/.tmux.conf # tmux
-cp -RT .config ~/.config   # fish
+cp -RT .config ~/.config   # fish, helix, nvim
 
-### Git Bash Prompt
+### Git Bash Prompt ############################################################
 curl -fLo ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
-### Install vim-plug
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+### Install vim-plug (vim & nvim) ##############################################
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+echo \n | vim -c "PlugInstall|qa!"
+echo \n | nvim -c "PlugInstall|qa!"
 
 ### TODO #######################################################################
 
@@ -29,5 +31,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 # NixOS?
 
+### Change Default Shell #######################################################
+chsh -s $(which fish)
 
+### Delete This Repository When Finished #######################################
 rm -rf $SCRIPT_DIR
