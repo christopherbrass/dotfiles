@@ -14,8 +14,9 @@ cp -RT .config ~/.config   # fish, helix, nvim
 ### Git Bash Prompt ############################################################
 curl -fLo ~/.git-prompt.sh https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh
 
-### Install vim-plug (vim & nvim) ##############################################
+### Install vim-plug (vi & vim & nvim) ##############################################
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+echo \n | vi -c "PlugInstall|qa!"
 echo \n | vim -c "PlugInstall|qa!"
 echo \n | nvim -c "PlugInstall|qa!"
 
