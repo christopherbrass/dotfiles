@@ -19,7 +19,7 @@ GIT_PS1_SHOWUNTRACKEDFILES='true'
 PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 " (%s)")'
 PS1='\[\e]0;@\u: \w\a\]\[\e[92m\]\u@\h\[\e[0m\]: \[\e[94m\]\w\[\e[93m\]${PS1_CMD1}\n\[\e[0m\][$?] \[\e[97m\]\\$\[\e[0m\] '
 
-export SHELL=fish
+export SHELL=bash
 export EDITOR=vim
 
 neofetch
