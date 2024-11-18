@@ -8,6 +8,7 @@ if status is-interactive
 
     export SHELL=fish
     export EDITOR=vim
+    export COLORTERM=truecolor
 end
 
 ### Aliases ####################################################################

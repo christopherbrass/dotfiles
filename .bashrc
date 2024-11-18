@@ -21,5 +21,6 @@ PS1='\[\e]0;@\u: \w\a\]\[\e[92m\]\u@\h\[\e[0m\]: \[\e[94m\]\w\[\e[93m\]${PS1_CMD
 
 export SHELL=bash
 export EDITOR=vim
+export COLORTERM=truecolor
 
 neofetch
