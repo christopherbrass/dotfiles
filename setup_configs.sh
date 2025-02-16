@@ -29,7 +29,6 @@ echo \n | nvim -c "PlugInstall|qa!"
 # git?
 # i3
 # vi/vim/nvim/VIS/helix
-# 
 
 # NixOS?
 
