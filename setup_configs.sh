@@ -26,11 +26,13 @@ echo \n | nvim -c "PlugInstall|qa!"
 # TODO: fish git prompt won't show *+%
 # TODO: ranger won't show file previews
 
-# git?
-# i3
-# vi/vim/nvim/VIS/helix
-
-# NixOS?
+# [x] vi/vim/nvim
+# [ ] VIS
+# [ ] helix
+# [ ] i3
+# [ ] 
+# [ ] git?
+# [ ] NixOS?
 
 ### Change Default Shell #######################################################
 chsh -s $(which fish)
