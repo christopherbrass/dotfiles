@@ -7,5 +7,5 @@ printf "${RED}This\n"
 printf "is\n"
 printf "temporary${RESET}\n"
 
-printf "Check permanence with MY_TEST_ENV. This script sets it to asdfASDF"
-printf "Usage: source <(curl https://raw.githubusercontent.com/christopherbrass/dotfiles/refs/heads/main/temp_bash_config.sh)"
+printf "Check permanence with MY_TEST_ENV. This script sets it to asdfASDF\n"
+printf "Usage: source <(curl https://raw.githubusercontent.com/christopherbrass/dotfiles/refs/heads/main/temp_bash_config.sh)\n"
